@@ -20,9 +20,9 @@ end
     #b.map do |i|
      # i.split(" ")
   # a.push(i)
- nam.split(/[\s,]/)
+ b = nam.split(/[\s,]/)
   binding.pry 
- nam.collect do |i|
+ b.collect do |i|
   
    if i !="" then a.push(i)
  end
