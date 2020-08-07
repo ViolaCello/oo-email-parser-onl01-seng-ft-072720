@@ -20,7 +20,7 @@ end
   # a.push(i)
  nam.split(/[\s,]/)
  nam.map do |i|
-   if i !="" a.push(i)
+   if i !="" then a.push(i)
  end
  end
   end
