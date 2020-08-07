@@ -15,7 +15,10 @@ end
     a = []
     nam = @address
     b = nam.split(",")
-   c = b.split(" ")
-    return c 
+    b.map do |i|
+      i.split(" ")
+   a.push(i)
+ end
+    return a 
   end
 end
