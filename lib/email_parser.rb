@@ -14,10 +14,11 @@ end
   def parse
     a = []
     nam = @address
-    b = nam.split(/, */) 
-    b.map do |i|
-      i.split(" ")
-   a.push(i)
+    # b = nam.split(/, */) 
+    #b.map do |i|
+     # i.split(" ")
+  # a.push(i)
+ nam.split(/[\s,]/)
  end
     return a 
   end
