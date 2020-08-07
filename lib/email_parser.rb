@@ -15,7 +15,7 @@ class EmailAddressParser
 end
   def parse
     a = []
-    product = []
+    
     nam = @address
     # b = nam.split(/, */) 
     #b.map do |i|
@@ -28,8 +28,8 @@ end
    if i !="" then a.push(i)
  end
  end
- a.collect do |p|
-   
- return a 
+ 
+   p = a.uniq 
+ return p 
   end
 end
