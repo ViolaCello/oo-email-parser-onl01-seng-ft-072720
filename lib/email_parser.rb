@@ -22,7 +22,7 @@ end
   # a.push(i)
  nam.split(/[\s,]/)
  nam.map do |i|
-   binging.pry 
+   binding.pry 
    if i !="" then a.push(i)
  end
  end
