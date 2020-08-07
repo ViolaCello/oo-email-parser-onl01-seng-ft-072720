@@ -15,7 +15,7 @@ end
     a = []
     nam = @address
     b = nam.split(",")
-   
-    return b
+   c = b.split(" ")
+    return c 
   end
 end
