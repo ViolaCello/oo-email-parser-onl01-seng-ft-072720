@@ -21,7 +21,7 @@ end
      # i.split(" ")
   # a.push(i)
  nam.split(/[\s,]/)
- nam.map do |i|
+ nam.collect do |i|
    binding.pry 
    if i !="" then a.push(i)
  end
