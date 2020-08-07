@@ -19,6 +19,9 @@ end
      # i.split(" ")
   # a.push(i)
  nam.split(/[\s,]/)
- 
+ nam.map do |i|
+   if i !="" a.push(i)
+ end
+ end
   end
 end
