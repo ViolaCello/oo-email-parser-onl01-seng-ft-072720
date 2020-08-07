@@ -16,6 +16,6 @@ end
     nam = @address
     b = nam.split(",")
    
-    return c
+    return b
   end
 end
