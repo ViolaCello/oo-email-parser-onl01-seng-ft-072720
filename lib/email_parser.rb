@@ -15,7 +15,7 @@ end
     a = []
     nam = @address
     b = nam.split(",")
-    c = nam.to_a 
+   
     return c
   end
 end
