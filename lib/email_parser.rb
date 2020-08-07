@@ -11,9 +11,9 @@ class EmailAddressParser
   @address = address
   @@all.push(address)
 end
-  def parse(names)
+  def parse(address)
     a = []
-    nam = names
+    nam = @address
     b = nam.split(",")
     c = nam.to_a 
     return c
