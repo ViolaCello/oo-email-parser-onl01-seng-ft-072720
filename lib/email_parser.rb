@@ -19,7 +19,6 @@ end
      # i.split(" ")
   # a.push(i)
  nam.split(/[\s,]/)
- end
-    return a 
+ 
   end
 end
